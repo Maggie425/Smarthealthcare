@@ -1,0 +1,52 @@
+.records-section {
+    padding: 2rem;
+    background-color: #17a0c2c6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .records-section h2 {
+    text-align: center;
+    color: #2b6777;
+    margin-bottom: 2rem;
+  }
+  
+  .record-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .record-card {
+    background-color: #ffffff;
+    border: 1px solid #cce3de;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .record-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .record-card h3 {
+    margin: 0 0 1rem 0;
+    color: #05445e;
+  }
+  
+  .record-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .record-card li {
+    padding: 0.3rem 0;
+    color: #333;
+  }
+  
+  .no-records {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+  }
+  
